@@ -1,0 +1,17 @@
+.todo {
+    max-width: 660px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+@keyframes rotate {
+    0% {transform:rotate(360deg);}
+    100% {transform:rotate(0);}
+}
+
+.icon-loading {
+    display: block;
+    margin: 0 auto;
+    animation: rotate 5s infinite linear;
+}
